@@ -27,13 +27,13 @@
 - 以下のコマンドを一行ずつコピぺして、Enterを押して実行してください。<br>
 ```conda config --remove channels defaults```<br>
 ```conda config --add channels conda-forge```<br>
-- 以上の操作が正しく実行できたかを確認するため、以下のコマンドをコピペして実行(Enterをクリック)してください。
+- 以上の操作が正しく実行できたかを確認するため、以下のコマンドをコピペして実行(Enterをクリック)してください。<br>
 ```conda config --show channels```<br>
 以下のようになっていればOKです。
-- ```
+  ```
     channels:
       - conda-forge
-    ```
+  ```
 ### 仮想環境の構築
 - 仮想環境"mlws_env"の構築<br>
 ```conda create -n mlws_env python=3.9```
@@ -42,10 +42,10 @@
 - 構築した仮想環境に入る<br>
 ``` conda activate mlws_env```
 - "C:"の前の表記に着目すると、(base)から(mlsw_env)に切り替わっていることが確認できる。
-- (mlsw_env)に切り替わっていることを確認して以下のコマンドを実行する。<br>
-``` conda install -c conda-forge ipykernel ```<br>
+- (mlsw_env)に切り替わっていることを確認して以下のコマンドを実行する。<br>途中でYer/Noを聞かれるので、Yを入力してEnterを押して進める。<br>
+``` conda install ipykernel ```<br>
 ```ipython kernel install --user --name mlws_env  ```
-- Jupyter labのインストール<br>
+- Jupyter labのインストール<br>途中でYer/Noを聞かれるので、Yを入力してEnterを押して進める。<br>
 ```conda install jupyterlab```
 ### Jupyter lab上で"Hello World!"を実行する
 - mlws_envの仮想環境に入る<br>
