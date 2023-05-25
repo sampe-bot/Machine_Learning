@@ -15,7 +15,6 @@
 ### 再構築
 - ymlファイルを保存したディレクトリで以下のコマンドを実行する。<br>
 ``` conda env create -n NEW_ENV -f FILE_NAME.yml ```
-
 ## オススメの記事
 - [Windows10でAnacondaをアンインストールする方法](https://utakataworks.com/windows10-anaconda-uninstall/)
 
