@@ -54,7 +54,8 @@
 - "Jupyter lab"と入力して、Enterをクリックする
 - Jupyter Labのブラウザが立ち上がる。
 - 新規ファイルを作成して、セルに"Hello World"と入力して、実行(shiftを押しながらEnterを押す)する。
-- "Hello World"がOutputされることを確認する
+- 新規ファイルを作成する際に、mlws_envが選択されていることを確認する。もしくはファイルを作成後に、カーネルをmlws_envに切り替える。
+- "Hello World"がOutputされることを確認する。
 
 ## あとがき
 - "Hello World"が出力されれば、本ドキュメントの目標はクリアです。お疲れ様でした！
