@@ -18,6 +18,7 @@
 - パッケージレジストリの変更
 - 仮想環境の構築
 - Jupyter lab上で"Hello world"の実行の確認
+- ライブラリのインストール
 ### インストール
 - [Minicondaのインストーラー](https://docs.conda.io/en/latest/miniconda.html#windows-installers)から、Windows用の`Miniconda3 Windows 64-bit`(Latest version)をインストールする。
 - 基本的にNextをクリックして前に進めるが、「Advanced Installation OptionsConda」では「Register Miniforge3 as my default Python 3.10」にチェックする。
@@ -57,5 +58,11 @@
 - 新規ファイルを作成する際に、mlws_envが選択されていることを確認する。もしくはファイルを作成後に、カーネルをmlws_envに切り替える。
 - "Hello World"がOutputされることを確認する。
 
+### 必要なライブラリのインストール
+- Anaconda Prompt(miniconda3)を開く。
+- mlws_envの仮想環境に入る<br>
+``` conda activate mlws_env ```
+- 以下のコマンドを実行して、必要なライブラリをインストールする。<br>
+```conda install numpy pandas seaborn matplotlib scikit-learn -y```
 ## あとがき
 - "Hello World"が出力されれば、本ドキュメントの目標はクリアです。お疲れ様でした！
