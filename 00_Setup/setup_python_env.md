@@ -5,9 +5,8 @@
 - 専門用語の説明は省きます。とりあえず、手順を踏めば、"Hello World"が実行できるようになります。気になる人は調べてみてください。
 
 ## 対象ユーザー
-- 機械学習講座の受講生
+- miniconda+miniforge+JupyterLabでpythonの実行環境を構築したい方(miniconda+miniforgeは無料で使えます。)
 - 既にPythonを使える人は本ドキュメントの対象外です。
-- Anacondaは使用不可ですので、ご注意ください。
 
 ## 確認事項
 - ネットワークの繋がる環境で下記の手順を実行してください。
@@ -65,4 +64,4 @@
 - 以下のコマンドを実行して、必要なライブラリをインストールする。<br>
 ```conda install numpy pandas seaborn matplotlib scikit-learn -y```
 ## あとがき
-- "Hello World"が出力されれば、本ドキュメントの目標はクリアです。お疲れ様でした！
+- "Hello World"が出力されれば、本ドキュメントの目標はクリアです。お疲れ様でした。
